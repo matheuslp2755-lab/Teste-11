@@ -21,7 +21,7 @@ const App: React.FC = () => {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <p>Loading...</p>
+        <p className="text-zinc-300">Loading...</p>
       </div>
     );
   }

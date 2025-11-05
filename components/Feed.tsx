@@ -15,10 +15,10 @@ const Feed: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-50 flex flex-col items-center justify-center w-full">
-      <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md text-center">
-        <h1 className="text-3xl font-bold mb-4">Welcome to SocialSnap!</h1>
-        <p className="text-zinc-600 mb-6">This is your feed. Content will appear here soon.</p>
+    <div className="min-h-screen bg-zinc-900 flex flex-col items-center justify-center w-full">
+      <div className="w-full max-w-md bg-zinc-800 p-8 rounded-lg shadow-md text-center">
+        <h1 className="text-3xl font-bold text-zinc-100 mb-4">Welcome to SocialSnap!</h1>
+        <p className="text-zinc-400 mb-6">This is your feed. Content will appear here soon.</p>
         <Button onClick={handleLogout}>
           Log Out
         </Button>
